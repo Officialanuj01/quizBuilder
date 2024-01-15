@@ -1,0 +1,147 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 3vw;
+}
+.btn{
+    margin-top: 2vh;
+    height: 10vh;
+    width: 14vw;
+    font-size: 3vw;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.main-container{
+
+    align-items: center;
+    background-color: white;
+    height: 70vh;
+    width: 65vw;
+    margin-top: 15vh;
+
+}
+.questionCount{
+    text-align: center;
+    margin: 0%;
+    position: fixed;
+    top: 30vh;
+    left: 18vw;
+    font-size: 1.5vw;
+}
+.question{
+    position: absolute;
+    top: 23vh;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+.currentQuestion{
+    font-size: 2vw;
+    margin-top: 2vh;
+    margin: 0;
+
+}
+.Fouroptions{
+    background-color: rgb(24, 132, 168);
+    text-align: center;
+    justify-content: center;
+    margin-top: 2vh;
+    height: 5vh;
+    color: white;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.Fouroptions:hover{
+    transform: scale(1.02);
+}
+.funtionalBtn{
+    margin-top: 2vh;
+    width: 65vw;
+    align-items: center;
+    text-align: center;
+}
+.previous, .next,.quit,.finish{
+    width: 10vw;
+    font-size: 2vw;
+    color: white;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+}
+.previous:hover,.next:hover,.quit:hover,.finish:hover{
+    transform: scale(1.02);
+}
+.previous{
+    background-color: rgb(146, 195, 227);
+}
+.next{
+    background-color: rgb(142, 214, 142);
+}
+.quit{
+    background-color: rgb(159, 56, 56);
+}
+.finish{
+    background-color: rgb(110, 76, 212);
+}
+
+
+
+.result{
+    align-items: center;
+    font-size: 4vw;
+    color: orange;
+    margin-left: 45vw;
+}
+
+.resultBox{
+    position: relative;
+    left: 20vw;
+    display: flex;
+    width: 60vw;
+    height: fit-content;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+.Tagline{
+    font-size: 2.5vw;
+}
+.details{
+    font-size: 1.5vw;
+
+}
+.detailsBox {
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+.functionalBtn{
+    margin: 2vw;
+    height: 7vh;
+    width: 10vw;
+    background-color: rgb(242, 134, 134);
+    font-size: 1.3vw;
+}
+.functionalBtn:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
